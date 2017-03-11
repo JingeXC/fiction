@@ -1,12 +1,63 @@
-<ion-view>
+<ion-view class="stable-bg">
   <ion-header-bar align-title="left" class="bar bar-header cu-bar">
     <button class="button pull-left" go-login ng-click="goLoginPage()">登录</button>
     <button class="button pull-right">我的书架</button>
   </ion-header-bar>
   <ion-content class="padding">
-    <div class="padding">
-      <span>登录查看我的等级</span>
-      <button class="button">登录</button>
+    <div class="list stable-bg">
+      <div class="item item-borderless light-bg padding">
+      <span class="inline-block cu-padding-15">登录查看我的等级</span>
+      <button class="button  pull-right cu-button light cu-bar text-right item-button-right">登录</button>
+      </div>
+      <div class="item item-input light-bg energized-border cu-padding cu-margin">
+        <input class="item-input-inset light-bg" placeholder="奋斗在盛唐" type="text"/>
+        <button class="button item-button-right stable-bg energized"><i class="icon padding-right ion-android-search"></i>搜索</button>
+      </div>
+    </div>
+    <div class="list light-bg">
+      <div class=" item-borderless list-item padding "><h3 class="inline-block cu-font-18">神书热推</h3></div>
+      <div class="row text-center padding cu-margin">
+        <div class="col-33"><a href=""><img class="col" src="../img/adam.jpg" alt=""/>占你上瘾</a></div>
+        <div class="col-33"><a href=""><img class="col" src="../img/ben.png" alt=""/>奋斗在盛唐</a></div>
+        <div class="col-33"><a href=""><img class="col" src="../img/max.png" alt=""/>寡嫂</a></div>
+      </div>
+      <div class="row padding cu-border"><a href="" class="energized">都市</a><span class="padding-left padding-right">|</span><a href="">雨夜荒屋妹子:乡野春风</a></div>
+      <div class="row padding cu-border"><a href="" class="energized">都市</a><span class="padding-left padding-right">|</span><a href="">乡间赤脚医生:透视村医</a></div>
+      <div class="row padding cu-border" ><a href="" class="energized">都市</a><span class="padding-left padding-right">|</span><a href="">雨夜荒屋妹子:乡野春风</a></div>
+      <div class="row padding cu-border"><a href="" class="energized">都市</a><span class="padding-left padding-right">|</span><a href="">雨夜荒屋妹子:乡野春风</a></div>
+    </div>
+    <div class="list light-bg">
+      <div class=" item-borderless list-item padding"><h3 class="inline-block cu-font-18">限时免费</h3><span class="cu-col-12">周六·周日</span><span class="right">0天8时10分49秒</span></div>
+      <div class="row text-center padding cu-margin">
+        <div class="col-33"><a href=""><img class="col" src="../img/adam.jpg" alt=""/>占你上瘾</a></div>
+        <div class="col-33"><a href=""><img class="col" src="../img/ben.png" alt=""/>奋斗在盛唐</a></div>
+        <div class="col-33"><a href=""><img class="col" src="../img/max.png" alt=""/>寡嫂</a></div>
+      </div>
+    </div>
+    <div class="list light-bg">
+      <div class=" item-borderless list-item padding"><h3 class="inline-block cu-font-18">畅销推荐</h3></div>
+      <div class="row text-center padding cu-margin">
+        <div class="col-20"><a href=""><img class="col" src="../img/adam.jpg" alt=""/></a></div>
+        <div class="col-80">
+            <div class="row">致青春</div>
+            <div class="row">都市言情.(连载中)</div>
+            <div class="row text-left">我叫刘霞，一个有情有义的混蛋，十五岁那年</div>
+        </div>
+      </div>
+      <div class="row padding cu-border"><a href="" class="energized">都市</a><span class="padding-left padding-right">|</span><a href="">雨夜荒屋妹子:乡野春风</a></div>
+      <div class="row padding cu-border"><a href="" class="energized">都市</a><span class="padding-left padding-right">|</span><a href="">乡间赤脚医生:透视村医</a></div>
+      <div class="row padding cu-border" ><a href="" class="energized">都市</a><span class="padding-left padding-right">|</span><a href="">雨夜荒屋妹子:乡野春风</a></div>
+      <div class="row padding cu-border"><a href="" class="energized">都市</a><span class="padding-left padding-right">|</span><a href="">雨夜荒屋妹子:乡野春风</a></div>
     </div>
   </ion-content>
+  <ion-footer-bar align-title="left" class="dark-bg">
+    <div class="row padding text-center">
+      <a class="cu-col-17 light">首页</a>
+      <a class="cu-col-17 light">书架</a>
+      <a class="cu-col-17 light">分类</a>
+      <a class="cu-col-17 light">留言</a>
+      <a class="cu-col-17 light">充值</a>
+      <a class="cu-col-17 light">客户端</a>
+    </div>
+  </ion-footer-bar>
 </ion-view>

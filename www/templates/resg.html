@@ -10,11 +10,19 @@
     <div class="list list-inset">
       <div class="item item-borderless cu-border row cu-margin">
         <img src="img/userHead.png" class="col-1 stable-bg" alt="">
-        <input type="text" class="stable-bg border item-input-wrapper" placeholder="用户名(2-12位字母数字汉字)" ng-model="username">
+        <input type="text" class="stable-bg border item-input-wrapper" placeholder="用户名(2-12位字母数字汉字)" >
       </div>
       <div class="item item-borderless cu-border row  cu-margin">
         <img src="img/password.png" class="col-1 stable-bg" alt="">
-        <input type="password" class="stable-bg item-input-wrapper" placeholder="密码(6-15位数字或字母)" ng-model="password">
+        <input type="password" class="stable-bg item-input-wrapper" placeholder="密码(6-15位数字或字母)" >
+      </div>
+      <div class="item item-borderless cu-border row  cu-margin">
+        <img src="img/password.png" class="col-1 stable-bg" alt="">
+        <input type="password" class="stable-bg  item-input-wrapper" placeholder="请重复密码" >
+      </div>
+      <div class="item item-borderless cu-border row  cu-margin">
+        <input type="password" class="stable-bg item-input-wrapper col-80" placeholder="请输入验证码" >
+        <i></i>
       </div>
       <div class="item item-borderless cu-border cu-item  text-center cu-margin" ng-click="login()">
         <button class="button  button-block cu-bar light">注册</button>

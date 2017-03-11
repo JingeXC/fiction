@@ -2,6 +2,10 @@
 body{
   font-family:"microsoft YaHei";
 }
+a{
+  text-decoration: none;
+  color:#000;
+}
 .cu-bar{
   background:#e98110;
 }
@@ -47,4 +51,32 @@ body{
 }
 .cu-resg{
   background:#638c0b;
+}
+.cu-button{
+  float: right;
+}
+.item-input-insets.light-bg{
+  background-color: #fff;
+}
+.cu-padding{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.cu-padding-15{
+  padding-top: 15px;
+}
+.cu-margin{
+  margin-top: 10px;
+}
+.inline-block{
+  display: inline-block;
+}
+.cu-font-18{
+  font-size: 18px;
+}
+.cu-col-12{
+  font-size: 12px;
+}
+.right{
+  float: right;
 }
