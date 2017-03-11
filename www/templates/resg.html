@@ -1,0 +1,38 @@
+<ion-view>
+  <ion-header-bar align-title="left" class="bar bar-header cu-bar">
+    <button class="button pull-left" go-back ng-click="goback()">返回</button>
+    <button class="button pull-right" go-home ng-click="goHomePage()">首页</button>
+  </ion-header-bar>
+  <ion-content class="padding">
+    <div class="assertive padding">
+      【温馨提示】微信下阅读的新用户，请点微信登录，一键注册，畅读更多免费好文。
+    </div>
+    <div class="list list-inset">
+      <div class="item item-borderless cu-border row cu-margin">
+        <img src="img/userHead.png" class="col-1 stable-bg" alt="">
+        <input type="text" class="stable-bg border item-input-wrapper" placeholder="用户名(2-12位字母数字汉字)" ng-model="username">
+      </div>
+      <div class="item item-borderless cu-border row  cu-margin">
+        <img src="img/password.png" class="col-1 stable-bg" alt="">
+        <input type="password" class="stable-bg item-input-wrapper" placeholder="密码(6-15位数字或字母)" ng-model="password">
+      </div>
+      <div class="item item-borderless cu-border cu-item  text-center cu-margin" ng-click="login()">
+        <button class="button  button-block cu-bar light">注册</button>
+      </div>
+      <div class="item item-borderless cu-border cu-item cu-margin" ng-click="login()">
+        <button class="button button-block balanced-bg text-center light cu-resg">已有账号点此登录</button>
+      </div>
+    </div>
+    <button class="button-block royal-bg padding col col-center cu-qq"><img  src="img/qq.png"><span>QQ登录</span></button>
+  </ion-content>
+  <ion-footer-bar align-title="left" class="dark-bg">
+    <div class="row padding text-center">
+      <a class="cu-col-17 light">首页</a>
+      <a class="cu-col-17 light">书架</a>
+      <a class="cu-col-17 light">分类</a>
+      <a class="cu-col-17 light">留言</a>
+      <a class="cu-col-17 light">充值</a>
+      <a class="cu-col-17 light">客户端</a>
+    </div>
+  </ion-footer-bar>
+</ion-view>
