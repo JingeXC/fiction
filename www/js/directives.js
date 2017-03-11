@@ -32,3 +32,14 @@ angular.module('starter.directives',[])
       }
     }
   })
+  .directive('goBookshelf',function(){
+    return{
+      restrict:'EA',
+      replace:false,
+      controller:function($scope,$state){
+        $scope.goBookShelf=function(){
+          $state.go('bookShelf');
+        }
+      }
+    }
+  })
