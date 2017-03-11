@@ -74,6 +74,11 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','s
     templateUrl:'templates/login.html',
     controller:'LoginCtrl'
   })
+  .state('resg',{
+    url:'/resg',
+    templateUrl:'templates/resg.html',
+    controller:'resgCtrl'
+  })
   $ionicConfigProvider.tabs.position('top');
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/tab/dash');

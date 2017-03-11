@@ -33,4 +33,7 @@ angular.module('starter.controllers', [])
     $state.go('resg');
   }
 })
+.controller('resgCtrl',function($scope,$state){
+  
+})
 ;
