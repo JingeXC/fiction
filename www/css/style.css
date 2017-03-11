@@ -38,6 +38,15 @@ a{
   -ms-flex: 0 0 16.667%;
   flex: 0 0 16.667%;
 }
+.cu-col-32{
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 32%;
+  -moz-box-flex: 0;
+  -moz-flex: 0 0 32%;
+  -ms-flex: 0 0 32%;
+  flex: 0 0 32%;
+}
+
 .cu-qq{
   background:#dfe1ed;
   border:none;
@@ -105,6 +114,7 @@ a{
   height: 50px;
   border: 1px solid #b2b2b2;
   border-bottom: none;
+  text-align: center;
 }
 .cu-pay-bar{
   border-bottom-left-radius:5px;
