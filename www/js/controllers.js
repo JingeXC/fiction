@@ -1,6 +1,12 @@
 angular.module('starter.controllers', [])
 
-.controller('DashCtrl', function($scope) {})
+.controller('DashCtrl', function($scope,$http,httpUrlService) {
+  var bookurl=httpUrlService.httpUrl;
+  
+  $http({method:'GET',url:bookurl}).then(function successCallback(data){
+    console.dir(data);
+  })
+})
 
 .controller('ChatsCtrl', function($scope, Chats) {
   // With the new view caching in Ionic, Controllers are only called
@@ -43,6 +49,6 @@ angular.module('starter.controllers', [])
 
 })
 .controller('userDetailCtrl',function($scope){
-  
+
 })
 ;
