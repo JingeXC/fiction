@@ -90,3 +90,33 @@ a{
   margin-right: 10px;
   margin-bottom: 10px;
 }
+.cu-pay .col{
+  height: 80px;
+  background-color: #fff;
+}
+.cu-col-margin{
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.cu-pay-white{
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  font-size: 8px;
+  height: 50px;
+  border: 1px solid #b2b2b2;
+  border-bottom: none;
+}
+.cu-pay-bar{
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  color: #fff;
+  height: 30px;
+  line-height: 30px;
+}
+.cu-payBox{
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+.cu-qrcode{
+  margin: 0 auto;
+}
