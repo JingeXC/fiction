@@ -79,6 +79,21 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','s
     templateUrl:'templates/resg.html',
     controller:'resgCtrl'
   })
+  .state('bookDetail',{
+    url:'/bookDetail',
+    templateUrl:'templates/bookDetail.html',
+    controller:'bookDetailCtrl'
+  })
+  .state('bookShelf',{
+    url:'/bookShelf',
+    templateUrl:'templates/bookShelf.html',
+    controller:'bookShelfCtrl'
+  })
+  .state('userDetail',{
+    url:'/userDetail',
+    templateUrl:'templates/userDetail.html',
+    controller:'userDetailCtrl'
+  })
   $ionicConfigProvider.tabs.position('top');
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/tab/dash');

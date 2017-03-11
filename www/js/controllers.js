@@ -34,6 +34,15 @@ angular.module('starter.controllers', [])
   }
 })
 .controller('resgCtrl',function($scope,$state){
+
+})
+.controller('bookDetailCtrl',function($scope){
+
+})
+.controller('bookShelfCtrl',function($scope){
+
+})
+.controller('userDetailCtrl',function($scope){
   
 })
 ;
