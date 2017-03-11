@@ -23,8 +23,9 @@ a{
 .cu-item{
   padding:0px;
 }
-.cu-border{
+.row.cu-border{
   border-bottom: 1px dashed #ccc;
+  margin-top:0;
 }
 .cu-margin{
   margin-bottom:15px;
