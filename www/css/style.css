@@ -86,3 +86,7 @@ a{
   min-height:40px;
   line-height: 36px;
 }
+.cu-kind div{
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
