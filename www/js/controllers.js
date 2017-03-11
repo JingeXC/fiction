@@ -23,9 +23,14 @@ angular.module('starter.controllers', [])
     enableFriends: true
   };
 })
-.controller('LoginCtrl',function($scope){
-  $scope.goback=function(){
-    window.history.back();
+.controller('LoginCtrl',function($scope,$state){
+  $scope.username;
+  $scope.password;
+  $scope.login=function(){
+
+  }
+  $scope.resg=function(){
+    $state.go('resg');
   }
 })
 ;

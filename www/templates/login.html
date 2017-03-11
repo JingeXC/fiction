@@ -1,29 +1,29 @@
 <ion-view>
   <ion-header-bar align-title="left" class="bar bar-header cu-bar">
-    <button class="button pull-left" ng-click="goback()">返回</button>
-    <button class="button pull-right">首页</button>
+    <button class="button pull-left" go-back ng-click="goback()">返回</button>
+    <button class="button pull-right" go-home ng-click="goHomePage()">首页</button>
   </ion-header-bar>
   <ion-content class="padding">
     <div class="assertive padding">
       【温馨提示】微信下阅读的新用户，请点微信登录，一键注册，畅读更多免费好文。
     </div>
-    <button class="button-block royal-bg padding col col-center"><img  src="img/qq.png">QQ登录</button>
     <div class="list list-inset">
       <div class="item item-borderless cu-border row cu-margin">
         <img src="img/userHead.png" class="col-1 stable-bg" alt="">
-        <input type="text" class="stable-bg border item-input-wrapper" placeholder="请输入用户名">
+        <input type="text" class="stable-bg border item-input-wrapper" placeholder="请输入用户名" ng-model="username">
       </div>
       <div class="item item-borderless cu-border row  cu-margin">
         <img src="img/password.png" class="col-1 stable-bg" alt="">
-        <input type="text" class="stable-bg item-input-wrapper" placeholder="请输入密码">
+        <input type="password" class="stable-bg item-input-wrapper" placeholder="请输入密码" ng-model="password">
       </div>
-      <div class="item item-borderless cu-border cu-item  text-center cu-margin" >
+      <div class="item item-borderless cu-border cu-item  text-center cu-margin" ng-click="login()">
         <button class="button  button-block cu-bar light">登录</button>
       </div>
-      <div class="item item-borderless cu-border cu-item cu-margin">
-        <button class="button button-block balanced-bg text-center light">注册新账号</button>
+      <div class="item item-borderless cu-border cu-item cu-margin" ng-click="resg()">
+        <button class="button button-block balanced-bg text-center light cu-resg">注册新账号</button>
       </div>
     </div>
+    <button class="button-block royal-bg padding col col-center cu-qq"><img  src="img/qq.png"><span>QQ登录</span></button>
   </ion-content>
   <ion-footer-bar align-title="left" class="dark-bg">
     <div class="row padding text-center">
