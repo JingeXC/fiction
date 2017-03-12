@@ -136,3 +136,13 @@ a{
   background-color:#fa9120;
   margin-bottom: 10px;
 }
+.cu-userMessage>div{
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.cu-userMessage button{
+  padding: 10px 20px;
+  border: none;
+  margin: 15px 10px;
+}
