@@ -23,7 +23,7 @@ a{
 .cu-item{
   padding:0px;
 }
-.row.cu-border{
+.cu-border{
   border-bottom: 1px dashed #ccc;
   margin-top:0;
 }
@@ -129,4 +129,10 @@ a{
 }
 .cu-qrcode{
   margin: 0 auto;
+}
+.cu-sortOut{
+  border-radius: 5px;
+  border: none;
+  background-color:#fa9120;
+  margin-bottom: 10px;
 }
