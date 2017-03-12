@@ -38,7 +38,29 @@ angular.module('starter.directives',[])
       replace:false,
       controller:function($scope,$state){
         $scope.goBookShelf=function(){
-          $state.go('bookShelf');
+          $state.go('tab.bookShelf');
+        }
+      }
+    }
+  })
+  .directive('goLibrary',function(){
+    return{
+      restrict:'EA',
+      replace:false,
+      controller:function($scope,$state){
+        $scope.goLibrary=function(){
+          $state.go('tab.chats');
+        }
+      }
+    }
+  })
+  .directive('goRecharge',function(){
+    return{
+      restrict:'EA',
+      replace:false,
+      controller:function($scope,$state){
+        $scope.goRecharge=function(){
+          $state.go('tab.account');
         }
       }
     }

@@ -6,17 +6,17 @@ navigation history that also transitions its views in and out.
 <ion-tabs class="tabs-icon-top tabs-color-active-energized">
 
   <!-- Dashboard Tab -->
-  <ion-tab title="首页" href="#/tab/dash" class="cu-header-bar">
+  <ion-tab title="首页" go-home ng-click="goHomePage()" class="cu-header-bar">
     <ion-nav-view name="tab-dash"></ion-nav-view>
   </ion-tab>
 
   <!-- Chats Tab -->
-  <ion-tab title="书库" href="#/tab/chats" class="cu-header-bar">
+  <ion-tab title="书库" go-library ng-click="goLibrary()" class="cu-header-bar">
     <ion-nav-view name="tab-chats"></ion-nav-view>
   </ion-tab>
 
   <!-- Account Tab -->
-  <ion-tab title="充值" href="#/tab/account" class="cu-header-bar">
+  <ion-tab title="充值" go-recharge ng-click="goRecharge()" class="cu-header-bar">
     <ion-nav-view name="tab-account"></ion-nav-view>
   </ion-tab>
 

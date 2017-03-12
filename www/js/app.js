@@ -69,6 +69,15 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','s
       }
     }
   })
+  .state('tab.bookShelf', {
+    url: '/bookShelf',
+    views: {
+      'tab-dash': {
+        templateUrl: 'templates/bookShelf.html',
+        controller: 'bookShelfCtrl'
+      }
+    }
+  })
   .state('login',{
     url: '/login',
     templateUrl:'templates/login.html',
@@ -84,11 +93,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','s
     templateUrl:'templates/bookDetail.html',
     controller:'bookDetailCtrl'
   })
-  .state('bookShelf',{
-    url:'/bookShelf',
-    templateUrl:'templates/bookShelf.html',
-    controller:'bookShelfCtrl'
-  })
+
   .state('userDetail',{
     url:'/userDetail',
     templateUrl:'templates/userDetail.html',
