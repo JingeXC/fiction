@@ -43,6 +43,9 @@ angular.module('starter.controllers', [])
 .controller('bookShelfCtrl',function($scope){
 
 })
+  .controller('userCenterCtrl',function($scope){
+
+  })
 .controller('userDetailCtrl',function($scope){
 
 })
