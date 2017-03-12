@@ -146,3 +146,27 @@ a{
   border: none;
   margin: 15px 10px;
 }
+.cu-bookButton>div{
+  margin:10px 15px 10px 10px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.cu-introduce{
+  border-bottom: 1px dashed #ccc;
+  border-top: 1px dashed #ccc;
+  margin-top: 15px;
+}
+.cu-userCenterButton a{
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px;
+  font-size:10px
+}
+.cu-userCenterButton>div{
+  margin: 0 auto;
+}
+.cu-hasborder{
+  border:1px solid #ccc;
+  border-right: none;
+}
