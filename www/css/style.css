@@ -170,3 +170,13 @@ a{
   border:1px solid #ccc;
   border-right: none;
 }
+.cu-borderNoRight{
+  border: 1px solid #f2f2f2;
+  border-right: none;
+}
+.cu-catalogue>div.row{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #f2f2f2;
+}
+

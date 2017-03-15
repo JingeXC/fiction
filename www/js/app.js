@@ -104,6 +104,11 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','s
       templateUrl:'templates/userCenter.html',
       controller:'userCenterCtrl'
     })
+    .state('catalogue',{
+      url:'/catalogue',
+      templateUrl:'templates/catalogue.html',
+      controller:'catalogueCtrl'
+    })
   $ionicConfigProvider.tabs.position('top');
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/tab/dash');
