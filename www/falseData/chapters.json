@@ -1,0 +1,476 @@
+{
+	"code": "A00000",
+	"msg": "Success",
+	"data": {
+		"chapters": [{
+				"chapterId": 31991,
+				"chapterNumber": 1,
+				"title": "第一章 黎铭",
+				"updateDate": 1387263300000,
+				"isCharge": false,
+				"partNum": 5049
+			}, {
+				"chapterId": 31997,
+				"chapterNumber": 2,
+				"title": "第二章 苏醒",
+				"updateDate": 1388223014000,
+				"isCharge": false,
+				"partNum": 2018
+			}, {
+				"chapterId": 32003,
+				"chapterNumber": 3,
+				"title": "第三章 铁匠铺",
+				"updateDate": 1388223037000,
+				"isCharge": false,
+				"partNum": 3074
+			}, {
+				"chapterId": 32016,
+				"chapterNumber": 4,
+				"title": "第四章 杨胖子",
+				"updateDate": 1388223061000,
+				"isCharge": false,
+				"partNum": 2688
+			}, {
+				"chapterId": 32071,
+				"chapterNumber": 5,
+				"title": "第五章 钢纹",
+				"updateDate": 1388223088000,
+				"isCharge": false,
+				"partNum": 3272
+			}, {
+				"chapterId": 32090,
+				"chapterNumber": 6,
+				"title": "第六章 百炼兵器",
+				"updateDate": 1388223109000,
+				"isCharge": false,
+				"partNum": 2996
+			}, {
+				"chapterId": 32181,
+				"chapterNumber": 7,
+				"title": "第七章 琪琪",
+				"updateDate": 1388223132000,
+				"isCharge": false,
+				"partNum": 2967
+			}, {
+				"chapterId": 32279,
+				"chapterNumber": 8,
+				"title": "第八章 要挟",
+				"updateDate": 1388223155000,
+				"isCharge": false,
+				"partNum": 3353
+			}, {
+				"chapterId": 32332,
+				"chapterNumber": 9,
+				"title": "第九章 逃跑",
+				"updateDate": 1388223176000,
+				"isCharge": false,
+				"partNum": 2466
+			}, {
+				"chapterId": 32397,
+				"chapterNumber": 10,
+				"title": "第十章 五重天来袭",
+				"updateDate": 1388385791000,
+				"isCharge": false,
+				"partNum": 2865
+			}, {
+				"chapterId": 32437,
+				"chapterNumber": 11,
+				"title": "第十一章 后天三重天",
+				"updateDate": 1388385824000,
+				"isCharge": false,
+				"partNum": 2998
+			}, {
+				"chapterId": 32438,
+				"chapterNumber": 12,
+				"title": "第十二章 武当再现",
+				"updateDate": 1388385859000,
+				"isCharge": false,
+				"partNum": 3090
+			}, {
+				"chapterId": 32578,
+				"chapterNumber": 13,
+				"title": "第十三章 登山",
+				"updateDate": 1388385887000,
+				"isCharge": false,
+				"partNum": 2813
+			}, {
+				"chapterId": 32581,
+				"chapterNumber": 14,
+				"title": "第十四章 龟宝宝",
+				"updateDate": 1388385913000,
+				"isCharge": false,
+				"partNum": 3078
+			}, {
+				"chapterId": 32685,
+				"chapterNumber": 15,
+				"title": "第十五章 出山",
+				"updateDate": 1388385940000,
+				"isCharge": false,
+				"partNum": 3204
+			}, {
+				"chapterId": 32686,
+				"chapterNumber": 16,
+				"title": "第十六章 欧阳家族",
+				"updateDate": 1388385962000,
+				"isCharge": false,
+				"partNum": 3103
+			}, {
+				"chapterId": 32771,
+				"chapterNumber": 17,
+				"title": "第十七章 战后天九重天",
+				"updateDate": 1388554490000,
+				"isCharge": false,
+				"partNum": 3204
+			}, {
+				"chapterId": 32773,
+				"chapterNumber": 18,
+				"title": "第十八章 萱府",
+				"updateDate": 1388554536000,
+				"isCharge": false,
+				"partNum": 3130
+			}, {
+				"chapterId": 32855,
+				"chapterNumber": 19,
+				"title": "第十九章 怒闯将军府",
+				"updateDate": 1388554566000,
+				"isCharge": false,
+				"partNum": 2965
+			}, {
+				"chapterId": 32856,
+				"chapterNumber": 20,
+				"title": "第二十章 自毁丹田",
+				"updateDate": 1388554596000,
+				"isCharge": false,
+				"partNum": 2880
+			}, {
+				"chapterId": 32857,
+				"chapterNumber": 21,
+				"title": "第二十一章 再战欧阳府",
+				"updateDate": 1388650816000,
+				"isCharge": false,
+				"partNum": 2800
+			}, {
+				"chapterId": 32862,
+				"chapterNumber": 22,
+				"title": "第二十二章 初战先天",
+				"updateDate": 1388649203000,
+				"isCharge": false,
+				"partNum": 3105
+			}, {
+				"chapterId": 32874,
+				"chapterNumber": 23,
+				"title": "第二十三章 七星剑阵",
+				"updateDate": 1388649269000,
+				"isCharge": false,
+				"partNum": 3277
+			}, {
+				"chapterId": 32889,
+				"chapterNumber": 24,
+				"title": "第二十四章 阴阳宗",
+				"updateDate": 1388649346000,
+				"isCharge": false,
+				"partNum": 3019
+			}, {
+				"chapterId": 32894,
+				"chapterNumber": 25,
+				"title": "第二十五章 收服",
+				"updateDate": 1388649378000,
+				"isCharge": false,
+				"partNum": 2203
+			}, {
+				"chapterId": 32902,
+				"chapterNumber": 26,
+				"title": "第二十六章 赶往帝都",
+				"updateDate": 1388649455000,
+				"isCharge": false,
+				"partNum": 3111
+			}, {
+				"chapterId": 32925,
+				"chapterNumber": 27,
+				"title": "第二十七章 朱果换兵器",
+				"updateDate": 1388649493000,
+				"isCharge": false,
+				"partNum": 2942
+			}, {
+				"chapterId": 32978,
+				"chapterNumber": 28,
+				"title": "第二十八章 赛前报名",
+				"updateDate": 1388814865000,
+				"isCharge": false,
+				"partNum": 2940
+			}, {
+				"chapterId": 33029,
+				"chapterNumber": 29,
+				"title": "第二十九章 万药阁",
+				"updateDate": 1388814916000,
+				"isCharge": false,
+				"partNum": 3031
+			}, {
+				"chapterId": 33106,
+				"chapterNumber": 30,
+				"title": "第三十章 小侯爷",
+				"updateDate": 1388814954000,
+				"isCharge": false,
+				"partNum": 3149
+			}, {
+				"chapterId": 33114,
+				"chapterNumber": 31,
+				"title": "第三十一章 皇宫酒宴",
+				"updateDate": 1388814991000,
+				"isCharge": false,
+				"partNum": 3050
+			}, {
+				"chapterId": 33324,
+				"chapterNumber": 32,
+				"title": "第三十二章 宴上激斗",
+				"updateDate": 1388815023000,
+				"isCharge": false,
+				"partNum": 3001
+			}, {
+				"chapterId": 33421,
+				"chapterNumber": 33,
+				"title": "第三十三章 无双侯",
+				"updateDate": 1388815050000,
+				"isCharge": false,
+				"partNum": 2964
+			}, {
+				"chapterId": 34052,
+				"chapterNumber": 34,
+				"title": "第三十四章 激战无双侯",
+				"updateDate": 1388825192000,
+				"isCharge": false,
+				"partNum": 3089
+			}, {
+				"chapterId": 34179,
+				"chapterNumber": 35,
+				"title": "第三十五章 入魔",
+				"updateDate": 1388918664000,
+				"isCharge": false,
+				"partNum": 3030
+			}, {
+				"chapterId": 34220,
+				"chapterNumber": 36,
+				"title": "第三十六章 魔影",
+				"updateDate": 1388979899000,
+				"isCharge": false,
+				"partNum": 3211
+			}, {
+				"chapterId": 34303,
+				"chapterNumber": 37,
+				"title": "第三十七章 突破先天",
+				"updateDate": 1389062914000,
+				"isCharge": false,
+				"partNum": 3175
+			}, {
+				"chapterId": 34409,
+				"chapterNumber": 38,
+				"title": "第三十八章 先天初战",
+				"updateDate": 1389141037000,
+				"isCharge": false,
+				"partNum": 3338
+			}, {
+				"chapterId": 34446,
+				"chapterNumber": 39,
+				"title": "第三十九章 血脉异变",
+				"updateDate": 1389161639000,
+				"isCharge": false,
+				"partNum": 2864
+			}, {
+				"chapterId": 34500,
+				"chapterNumber": 40,
+				"title": "第四十章 花佛老鬼",
+				"updateDate": 1389237722000,
+				"isCharge": false,
+				"partNum": 3278
+			}, {
+				"chapterId": 34586,
+				"chapterNumber": 41,
+				"title": "第四十一章 战方纯老祖",
+				"updateDate": 1389313791000,
+				"isCharge": false,
+				"partNum": 3121
+			}, {
+				"chapterId": 34607,
+				"chapterNumber": 42,
+				"title": "第四十二章 再入遗迹",
+				"updateDate": 1389333633000,
+				"isCharge": false,
+				"partNum": 3122
+			}, {
+				"chapterId": 34670,
+				"chapterNumber": 43,
+				"title": "第四十三章 木之绝地",
+				"updateDate": 1389402743000,
+				"isCharge": false,
+				"partNum": 3130
+			}, {
+				"chapterId": 34689,
+				"chapterNumber": 44,
+				"title": "第四十四章 方纯老祖身死",
+				"updateDate": 1389411566000,
+				"isCharge": false,
+				"partNum": 3213
+			}, {
+				"chapterId": 34815,
+				"chapterNumber": 45,
+				"title": "第四十五章 火之绝地",
+				"updateDate": 1389493806000,
+				"isCharge": false,
+				"partNum": 3213
+			}, {
+				"chapterId": 35116,
+				"chapterNumber": 46,
+				"title": "第四十六章 混元炼神决",
+				"updateDate": 1389579757000,
+				"isCharge": false,
+				"partNum": 3122
+			}, {
+				"chapterId": 35159,
+				"chapterNumber": 47,
+				"title": "第四十七章 突破先天后期",
+				"updateDate": 1389593000000,
+				"isCharge": false,
+				"partNum": 3233
+			}, {
+				"chapterId": 35227,
+				"chapterNumber": 48,
+				"title": "第四十八章 佛影出现",
+				"updateDate": 1389609558000,
+				"isCharge": false,
+				"partNum": 3221
+			}, {
+				"chapterId": 35244,
+				"chapterNumber": 49,
+				"title": "第四十九章 浮生湖萧信",
+				"updateDate": 1389616812000,
+				"isCharge": false,
+				"partNum": 3198
+			}, {
+				"chapterId": 35285,
+				"chapterNumber": 50,
+				"title": "第五十章 皇宫决斗",
+				"updateDate": 1389660037000,
+				"isCharge": false,
+				"partNum": 3278
+			}, {
+				"chapterId": 35300,
+				"chapterNumber": 51,
+				"title": "第五十一章 瞒天决",
+				"updateDate": 1389667833000,
+				"isCharge": false,
+				"partNum": 3201
+			}, {
+				"chapterId": 35305,
+				"chapterNumber": 52,
+				"title": "第五十二章 养神丹",
+				"updateDate": 1389672108000,
+				"isCharge": false,
+				"partNum": 3130
+			}, {
+				"chapterId": 35385,
+				"chapterNumber": 53,
+				"title": "第五十三章 再入皇宫",
+				"updateDate": 1389699392000,
+				"isCharge": false,
+				"partNum": 3227
+			}, {
+				"chapterId": 35386,
+				"chapterNumber": 54,
+				"title": "第五十四章 抵达阴阳宗",
+				"updateDate": 1392626091000,
+				"isCharge": false,
+				"partNum": 3067
+			}, {
+				"chapterId": 41278,
+				"chapterNumber": 55,
+				"title": "第五十五章 进入宗门",
+				"updateDate": 1392626121000,
+				"isCharge": false,
+				"partNum": 2871
+			}, {
+				"chapterId": 41279,
+				"chapterNumber": 56,
+				"title": "第五十六章 阴阳宗掌门",
+				"updateDate": 1392626143000,
+				"isCharge": false,
+				"partNum": 2925
+			}, {
+				"chapterId": 41280,
+				"chapterNumber": 57,
+				"title": "第五十七章 杂物堂",
+				"updateDate": 1392626168000,
+				"isCharge": false,
+				"partNum": 3086
+			}, {
+				"chapterId": 41281,
+				"chapterNumber": 58,
+				"title": "第五十八章 小露锋芒",
+				"updateDate": 1392626243000,
+				"isCharge": false,
+				"partNum": 3097
+			}, {
+				"chapterId": 46734,
+				"chapterNumber": 59,
+				"title": "第五十九章 突破先天前期",
+				"updateDate": 1397556213000,
+				"isCharge": false,
+				"partNum": 1963
+			}, {
+				"chapterId": 46735,
+				"chapterNumber": 60,
+				"title": "第六十章 突破先天后期",
+				"updateDate": 1397556409000,
+				"isCharge": false,
+				"partNum": 2528
+			}, {
+				"chapterId": 46736,
+				"chapterNumber": 61,
+				"title": "第六十一章 重返武当山",
+				"updateDate": 1397556520000,
+				"isCharge": false,
+				"partNum": 2876
+			}, {
+				"chapterId": 46737,
+				"chapterNumber": 62,
+				"title": "第六十二章 武当山大战（一）",
+				"updateDate": 1397556555000,
+				"isCharge": false,
+				"partNum": 2175
+			}, {
+				"chapterId": 46738,
+				"chapterNumber": 63,
+				"title": "第六十三章 武当山大战（二）",
+				"updateDate": 1397556608000,
+				"isCharge": false,
+				"partNum": 4193
+			}, {
+				"chapterId": 46740,
+				"chapterNumber": 64,
+				"title": "第六十四章 武当山大战（三）",
+				"updateDate": 1397556706000,
+				"isCharge": false,
+				"partNum": 2301
+			}, {
+				"chapterId": 46741,
+				"chapterNumber": 65,
+				"title": "第六十五章 武当山大战（四）",
+				"updateDate": 1397556757000,
+				"isCharge": false,
+				"partNum": 4998
+			}, {
+				"chapterId": 46742,
+				"chapterNumber": 66,
+				"title": "第六十六章 白日飞升（一）",
+				"updateDate": 1397556922000,
+				"isCharge": false,
+				"partNum": 3708
+			}, {
+				"chapterId": 46744,
+				"chapterNumber": 67,
+				"title": "第六十七章 白日飞升（终）",
+				"updateDate": 1397556901000,
+				"isCharge": false,
+				"partNum": 1239
+			}]
+	}
+}

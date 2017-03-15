@@ -1,0 +1,48 @@
+{
+	"code":"A00000",
+	"data":{
+		"books":[
+			{
+				"id":70159,
+				"title":"暧昧办公室:妖娆俏老板",
+				"image":"http://file1.kanshu.com/upload/article/70159/70159_m.jpg",
+				"category":"都市言情",
+				"fullflag":0,
+				"word":740000, 
+				"intro":"桃花运到，挡也挡不住。钟晓飞先在机场捡了一个青春性感的小姨子，接着又捡到了梦中女神的贴身之物。一时间，美女投怀送抱，艳遇接连不断！美女太多了，应接不暇之际，一个巨大的危险已经悄然而至。为了日后的‘幸’福，他决定发彪，男人统统打倒，美女全部推倒！",
+				"author":"微微一笑",
+				"lastchapter":"第六章 修复那张膜",
+				"lastupdate":1440467918579,
+				"click":5932550
+			},
+			{
+				"id":3522,
+				"title":"总裁驾到：独宠萌妻",
+				"image":"http://www.taxiaoshuo.com/files/article/image/3/3522/3522s.jpg",
+				"category":"总裁",
+				"fullflag":1,
+				"word":1000690, 
+				"intro":"渣男劈腿，带着小三来秀恩爱，当她心中无措的时候，那个人一把揽过她的肩膀。\n\n“艾嘉，欺负你的人，我会加倍欺负回来。别想逃避我，你注定是我的女人。你需要我的保护！”\n\n开玩笑，出门有GPS，吃饭有速食，宝宝不需……你别过来!\n唔!\n……\n白总裁体力不错嘛...",
+				"author":"半日闲",
+				"lastchapter":"第三十四章 再见差异",
+				"lastupdate":1462784668000,
+				"click":55354
+			},
+			{
+				"id":782,
+				"title":"天道神衍",
+				"image":"http://www.taxiaoshuo.com/files/article/image/0/782/782s.jpg",
+				"category":"玄幻",
+				"fullflag":0,
+				"word":2404761, 
+				"intro":"  异世大陆，群族林立，亿万秘境，神魔消逝，一棵树可撑天，一滴水可穿石，黎明是万物的终结，也是黎铭的开始。","keywords":"黎铭 异世大陆 玄幻 升级练功",
+				"author":"星季",
+				"lastchapter":"第六十七章 白日飞升（终）",
+				"lastupdate":1397556901000,
+				"click":5932550
+			}
+		] ,
+		"timestamp":1440467918579
+	},
+	"msg":"Success"
+}
