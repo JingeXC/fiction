@@ -1,14 +1,7 @@
 angular.module('starter.controllers', [])
 
-  .controller('DashCtrl', function($scope, $http, httpUrlService) {
-    var bookurl = httpUrlService.httpUrl;
+  .controller('DashCtrl', function($scope, $http,getData) {
 
-    $http({
-      method: 'GET',
-      url: bookurl
-    }).then(function successCallback(data) {
-      console.dir(data);
-    })
   })
 
   .controller('ChatsCtrl', function($scope) {
