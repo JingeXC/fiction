@@ -46,15 +46,10 @@ angular.module('starter.controllers', [])
   .controller('bookShelfCtrl', function($scope) {
 
   })
-  .controller('catalogueCtrl', function($scope,$http,httpUrlService) {
-    var url = httpUrlService.httpUrl+'/chapters.json';
-    $http({
-      method:'GET',
-      url:url
-    }).then(function successCallback(data){
-      $scope.chapters = data.data.data;
-    },function errorCallback(){
-      console.log(data.status);
+  .controller('catalogueCtrl', function($scope,$http,getData) {
+    var url ='/chapters.json';
+    getData.async(url).then(function(data){
+      $scope.chapters=data.data.data;
     })
     $scope.goPage=function(id){
       console.log(id);
