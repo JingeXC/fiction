@@ -114,6 +114,11 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','s
       templateUrl:'templates/bookitems.html',
       controller:'bookitemsCtrl'
     })
+    .state('message',{
+      url:'/message',
+      templateUrl:'templates/message.html',
+      controller:'messageCtrl'
+    })
   $ionicConfigProvider.tabs.position('top');
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/tab/dash');

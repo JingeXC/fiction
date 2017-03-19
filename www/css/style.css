@@ -186,3 +186,18 @@ a{
   padding-bottom: 10px;
   padding-top: 10px;
 }
+.cu-message{
+  padding-right: 16px;
+}
+.cu-message>.item-input{
+  padding: 10px;
+}
+.cu-message input,.cu-message textarea{
+  border: 1px solid #ccc;
+  padding-left: 10px;
+
+}
+.cu-message textarea{
+  min-height: 100px;
+  background-color: #ddd;
+}

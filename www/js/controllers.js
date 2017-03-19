@@ -42,6 +42,9 @@ angular.module('starter.controllers', [])
   .controller('bookitemsCtrl', function($scope) {
 
   })
+  .controller('messageCtrl', function($scope) {
+
+  })
   .controller('catalogueCtrl', function($scope,$http,getData) {
     var url ='/chapters.json';
     getData.async(url).then(function(data){

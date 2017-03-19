@@ -76,3 +76,14 @@ angular.module('starter.directives',[])
       }
     }
   })
+  .directive('goMessage',function(){
+    return{
+      restrict:'EA',
+      replace:false,
+      controller:function($scope,$state){
+        $scope.goMessage=function(){
+          $state.go('message');
+        }
+      }
+    }
+  })
