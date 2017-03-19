@@ -11,7 +11,8 @@
         <div class="col padding stable-bg">倒序显示</div>
       </div>
       <div class="padding cu-catalogue">
-        <div class="row cu-kind"><span>第1章 如今的我</span></div>
+        <div class="row cu-kind" ng-repeat="item in chapters.chapters" ng-click="goPage(item.chapterId)"><span>{{item.title}}</span></div>
+        <!-- <div class="row cu-kind"><span>第1章 如今的我</span></div>
         <div class="row cu-kind"><span>第2章 桥洞里的我</span></div>
         <div class="row cu-kind"><span>第3章 她们的职业</span></div>
         <div class="row cu-kind"><span>第4章 争吵</span></div>
@@ -22,7 +23,7 @@
         <div class="row cu-kind"><span>第9章 她们的职业</span><span class="energized padding-left">vip</span></div>
         <div class="row cu-kind"><span>第10章 争吵</span><span class="energized padding-left">vip</span></div>
         <div class="row cu-kind"><span>第11章 步入红尘</span><span class="energized padding-left">vip</span></div>
-        <div class="row cu-kind"><span>第12章 惹麻烦，上班的第一天</span><span class="energized padding-left">vip</span></div>
+        <div class="row cu-kind"><span>第12章 惹麻烦，上班的第一天</span><span class="energized padding-left">vip</span></div> -->
       </div>
       <div class="text-center padding">
         <label class="item item-input item-borderless item-select">
