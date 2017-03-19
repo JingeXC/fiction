@@ -39,6 +39,9 @@ angular.module('starter.controllers', [])
   .controller('bookShelfCtrl', function($scope) {
 
   })
+  .controller('bookitemsCtrl', function($scope) {
+
+  })
   .controller('catalogueCtrl', function($scope,$http,getData) {
     var url ='/chapters.json';
     getData.async(url).then(function(data){

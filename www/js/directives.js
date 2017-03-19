@@ -65,3 +65,14 @@ angular.module('starter.directives',[])
       }
     }
   })
+  .directive('goBookitems',function(){
+    return{
+      restrict:'EA',
+      replace:false,
+      controller:function($scope,$state){
+        $scope.goBookitems=function(){
+          $state.go('bookitems');
+        }
+      }
+    }
+  })
