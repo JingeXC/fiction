@@ -119,6 +119,11 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','s
       templateUrl:'templates/message.html',
       controller:'messageCtrl'
     })
+    .state('comment',{
+      url:'/comment',
+      templateUrl:'templates/comment.html',
+      controller:'commentCtrl'
+    })
   $ionicConfigProvider.tabs.position('top');
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/tab/dash');

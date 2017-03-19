@@ -87,3 +87,14 @@ angular.module('starter.directives',[])
       }
     }
   })
+  .directive('goComment',function(){
+    return{
+      restrict:'EA',
+      replace:false,
+      controller:function($scope,$state){
+        $scope.goComment=function(){
+          $state.go('comment');
+        }
+      }
+    }
+  })

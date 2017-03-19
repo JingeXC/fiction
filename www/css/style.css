@@ -170,6 +170,10 @@ a{
   border:1px solid #ccc;
   border-right: none;
 }
+.cu-hasborder-left{
+  border:1px solid #ccc;
+  border-left: none;
+}
 .cu-borderNoRight{
   border: 1px solid #f2f2f2;
   border-right: none;
@@ -197,7 +201,16 @@ a{
   padding-left: 10px;
 
 }
+.cu-textarea{
+  padding-left: 0px;
+
+}
 .cu-message textarea{
   min-height: 100px;
   background-color: #ddd;
+}
+.cu-textarea>textarea{
+  border: 1px solid #ccc;
+  background-color: #ddd;
+  min-height: 100px;
 }
