@@ -36,25 +36,10 @@
       </div>
     </div>
     <div class="list light-bg">
-      <div class="item item-borderless item-text-wrap cu-book">
-          <div class="row positive">我欲封天</div>
-          <div class="row">第4章 他有多禽兽(2017-03-04 19:58:39)</div>
-          <span class="row cu-border">作者：<span>秀儿</span> 字数：<span>7548</span></span>
-      </div>
-      <div class="item item-borderless item-text-wrap cu-book">
-          <div class="row positive">我欲封天</div>
-          <div class="row">第4章 他有多禽兽(2017-03-04 19:58:39)</div>
-          <span class="row cu-border">作者：<span>秀儿</span> 字数：<span>7548</span></span>
-      </div>
-      <div class="item item-borderless item-text-wrap cu-book">
-          <div class="row positive">我欲封天</div>
-          <div class="row">第4章 他有多禽兽(2017-03-04 19:58:39)</div>
-          <span class="row cu-border">作者：<span>秀儿</span> 字数：<span>7548</span></span>
-      </div>
-      <div class="item item-borderless item-text-wrap cu-book">
-          <div class="row positive">我欲封天</div>
-          <div class="row">第4章 他有多禽兽(2017-03-04 19:58:39)</div>
-          <span class="row cu-border">作者：<span>秀儿</span> 字数：<span>7548</span></span>
+      <div ng-repeat="book in books.books" class="item item-borderless item-text-wrap cu-book">
+          <div class="row positive">{{book.title}}</div>
+          <div class="row">{{book.lastchapter}}({{book.lastupdate | formatDate}})</div>
+          <span class="row cu-border">作者：<span>{{book.author}}</span> 字数：<span>{{book.word}}</span></span>
       </div>
       <div class="text-center padding">
         <label class="item item-input item-borderless item-select">

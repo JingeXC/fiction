@@ -33,14 +33,20 @@ angular.module('starter.controllers', [])
   .controller('resgCtrl', function($scope, $state) {
 
   })
-  .controller('bookDetailCtrl', function($scope) {
-
+  .controller('bookDetailCtrl', function($scope,getData) {
+    var url="/book.json";
+    getData.async(url).then(function(data){
+      $scope.bookData=data.data.data;
+    })
   })
   .controller('bookShelfCtrl', function($scope) {
 
   })
-  .controller('bookitemsCtrl', function($scope) {
-
+  .controller('bookitemsCtrl', function($scope,getData) {
+    var url="/books.json";
+    getData.async(url).then(function(data){
+      $scope.books=data.data.data;
+    })
   })
   .controller('messageCtrl', function($scope) {
 
@@ -62,4 +68,11 @@ angular.module('starter.controllers', [])
   })
   .controller('userDetailCtrl', function($scope) {
 
+  })
+  .filter('formatDate',function(){
+    return function(text){
+      var num= parseInt(text);
+      var date = new Date(num);
+      return text = date.getFullYear()+"年 "+(date.getMonth()+1)+"月"+date.getDate()+"日 "+date.getHours()+":"+date.getMinutes()+":"+date.getSeconds();
+    }
   });
